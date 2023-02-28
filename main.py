@@ -23,7 +23,7 @@ def movement(keys, skier):
 def draw_mountain(player):
      WIN.fill(c.WHITE) # white background
 
-     pygame.draw.rect(WIN, c.GRAY, VERT_MIDDLE_TEST)
+     #pygame.draw.rect(WIN, c.GRAY, VERT_MIDDLE_TEST)
 
      skier = pygame.Rect(round(player.x),round(player.y), c.SKIER_WIDTH, c.SKIER_HEIGHT)
 
